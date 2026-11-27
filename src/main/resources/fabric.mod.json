@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "sildurs_look",
+  "version": "1.0.0",
+  "name": "Sildur's Look Lite",
+  "description": "Сочная цветокоррекция и освещение в стиле Sildur's Basic без потери FPS",
+  "authors": ["maklpvp5-prog"],
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.maklpvp5.autoshader.SildursLookClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "1.21.11",
+    "fabric-api": "*"
+  }
+}
