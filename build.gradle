@@ -1,5 +1,5 @@
 plugins {
-    id 'fabric-loom' version '1.16-SNAPSHOT'
+    id 'net.fabricmc.fabric-loom-remap' version '1.19-SNAPSHOT'
     id 'maven-publish'
 }
 
@@ -21,5 +21,6 @@ java {
     sourceCompatibility = JavaVersion.VERSION_21
     targetCompatibility = JavaVersion.VERSION_21
 }
+
 
 
